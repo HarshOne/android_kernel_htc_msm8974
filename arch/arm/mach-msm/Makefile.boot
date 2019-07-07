@@ -65,6 +65,8 @@ ifeq ($(CONFIG_MACH_M8)$(CONFIG_MACH_M8_WHL)$(CONFIG_MACH_M8_WL), y)
 	dtb-$(CONFIG_ARCH_MSM8974)	+= msm8974pro-ab-pm8941-m8wl-xc.dtb
 	dtb-$(CONFIG_ARCH_MSM8974)	+= msm8974pro-ab-pm8941-m8wl-xd.dtb
 	dtb-$(CONFIG_ARCH_MSM8974)	+= msm8974pro-ab-pm8941-m8wl-xe.dtb
+else ifeq ($(CONFIG_MACH_MELS_TUHL), y)
+	htc_dtb-$(CONFIG_ARCH_MSM8974) += msm8974pro-aa-pm8941-melstuhl.dtb
 else ifeq ($(CONFIG_MACH_M8_DUG), y)
 	dtb-$(CONFIG_ARCH_MSM8974)	+= msm8974pro-ab-pm8941-m8dug.dtb
 	dtb-$(CONFIG_ARCH_MSM8974)	+= msm8974pro-ab-pm8941-m8dug-xb.dtb
