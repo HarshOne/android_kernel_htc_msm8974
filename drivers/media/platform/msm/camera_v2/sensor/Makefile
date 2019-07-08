@@ -8,6 +8,7 @@ obj-$(CONFIG_MSMB_CAMERA) += cci/ io/ csiphy/ csid/ actuator/ flash/ eeprom/
 obj-$(CONFIG_MSM_CAMERA_SENSOR) += msm_sensor.o
 obj-$(CONFIG_S5K5E_TWOLANE) += s5k5e2_twolane.o
 obj-$(CONFIG_IMX134) += imx134.o
+obj-$(CONFIG_IMX214) += imx214.o
 obj-$(CONFIG_OV8825) += ov8825.o
 obj-$(CONFIG_AR0260) += ar0260.o
 obj-$(CONFIG_OV2720) += ov2720.o
